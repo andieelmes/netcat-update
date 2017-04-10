@@ -1,0 +1,359 @@
+.pressTitle {
+	position: relative;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.pressTitle-link {
+	font-size:18px;
+	margin-right:15px;
+}
+
+.standartTitle--press {
+	min-height: 0;
+}
+
+.standartTitle--press .standartTitle-bottom {
+	margin-top:20px;
+	width:60%;
+}
+
+.standartTitle--press .standartTitle-bottom a {
+	margin-bottom:14px;
+	display:inline-block;
+}
+
+.standartTitle--press .standartTitle-image {
+	min-height: 0;
+	bottom:0;
+	height:auto;
+	line-height: 0;
+	position: absolute;
+}
+
+.standartTitle--press .standartTitle-image img {
+	position: absolute;
+	bottom:0;
+	max-width:100%;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+
+
+
+.pressSection {
+	padding:40px 0 20px;
+	background: #fff;
+	border-bottom:1px solid #e7e7e7;
+	position: relative;
+}
+
+.pressSection h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color:#454b57;
+	padding-bottom:35px;
+	padding-top:5px;
+}
+
+.pressSection .col {
+	display: inline-block;
+	position: relative;
+	margin-right:-4px;
+	width:50%;
+}
+
+.pressSection .col--1 {
+	width:35%;
+	padding-right:5%;
+}
+
+.pressSection .col--2 {
+	width:60%;
+}
+
+.pressSection .col--3 {
+	width:22%;
+	padding-right:3%;
+}
+
+.pressSection .col--4 {
+	width:20%;
+	text-align: center;
+}
+
+.pressSection .col--5 {
+	width:30%;
+}
+
+.pressPhoto {
+	background: #fcfcfc;
+	position: relative;
+	border:1px dashed #d6e2f0;
+	line-height: 0;
+	text-align: center;
+	padding-top:30px;
+}
+
+.pressPhoto img {
+	width:80%;
+	max-width: 240px;
+	height:auto;
+}
+
+.pressPhoto-overlay {
+	position: absolute;
+	background: rgba(95, 105, 120, 0.95);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5;
+	line-height: normal;
+	color:#fff;
+	font-size:18px;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.pressPhoto-overlay a {
+	display:inline-block;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin:0 5px 10px 5px;
+}
+
+.pressPhoto-overlay p {
+	padding-bottom:30px;
+}
+
+.pressPhoto-download {
+	height:80px;
+	position: absolute;
+	max-width:320px;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:50%;
+	margin-top:-40px;
+}
+
+.pressPhoto-overlay a:hover {
+	color:#3d67b0;
+	background: #fff;
+}
+
+.pressPhoto:hover .pressPhoto-overlay {
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+
+.pressText h3 {
+	font-size:24px;
+	font-weight: normal;
+	padding-bottom:15px;
+}
+
+.pressText h4 {
+	font-size: 16px;
+	color:#a2a2a2;
+	font-weight: normal;
+	padding-bottom:35px;
+}
+
+.pressSection p {
+	margin-bottom:20px;
+}
+
+.pressText .button img {
+	margin-top:3px;
+	margin-bottom:-3px;
+	margin-right:6px;
+}
+
+.pressLogo {
+	color:#a2a2a2;
+	font-size:16px;
+	margin-right:20px;
+	margin-bottom:30px;
+}
+
+.col:nth-of-type(2n) .pressLogo {
+	margin-right:0;
+	margin-left:20px;
+}
+
+.pressLogo p {
+	margin-bottom:20px;
+}
+
+.pressLogo-image {
+	border:1px dashed #d6e2f0;
+	height:140px;
+	line-height:140px;
+	text-align: center;
+	position: relative;
+}
+
+.pressLogo-image img {
+	vertical-align: middle;
+	display:inline-block;
+}
+
+.pressLogo-overlay {
+	position: absolute;
+	background: rgba(95, 105, 120, 0.95);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5;
+	line-height: normal;
+	color:#fff;
+	font-size:18px;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.pressLogo-overlay a {
+	display:inline-block;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin:0 5px;
+}
+
+.pressLogo-overlay a:hover {
+	color:#3d67b0;
+	background: #fff;
+}
+
+.pressLogo-image:hover .pressLogo-overlay {
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+.pressLogo-download {
+	height:30px;
+	margin-top:-15px;
+	text-align: center;
+	padding:0 30px;
+	position: absolute;
+	left:0;
+	right:0;
+	top:50%;
+}
+
+.pressHistory {
+	padding-bottom:20px;
+}
+
+.pressHistory .button img {
+	margin-top:3px;
+	margin-bottom:-3px;
+	margin-right:6px;
+}
+
+
+.pressSection--last {
+	position: relative;
+	background: #fcfcef;
+	padding:40px 0 40px 0;
+	font-size:18px;
+}
+
+.pressSection--last .col {
+	vertical-align: middle;
+}
+
+.pressSection--last h3 {
+	padding-bottom:0;
+}
+
+.pressSection--last .col--5 {
+	line-height:26px;
+}
+
+
+
+@media (max-width:1000px) {
+	
+	.pressPhoto-download {
+		margin-top:-60px;
+	}
+	
+	.pressPhoto-overlay p {
+		margin-bottom:15px;
+	}
+	
+	.pressHistory .col {
+		width:100%;
+	}
+	
+	.pressLogo-image img {
+		max-width:60%;
+		height:auto;
+	}
+}
+
+
+@media (max-width:700px) {
+	
+	.standartTitle--press .standartTitle-bottom {
+		width:100%;
+	}
+	
+	.pressLogo-download a,
+	.pressLogo-download span {
+		display:inline-block;
+		margin-bottom:8px;
+	}
+	
+	.pressLogo-download {
+		width:100px;
+		margin:0 auto;
+		margin-top:-44px;
+		padding:0;
+		left:0;
+		right:0;
+	}
+	
+	.pressSection--last .col {
+		display:block;
+		vertical-align: top;
+		width:100%;
+		text-align: left;
+		padding:0 0 10px 0;
+	}
+	
+}
+
+@media (max-width:660px) {
+	
+	.pressSection .col--2, .pressSection .col--1,
+	.pressSection .col {
+		width:100%;
+		margin:0;
+	}
+	
+	.pressLogo, .col:nth-of-type(2n) .pressLogo {
+		margin-left:0;
+		padding-left:0;
+		margin-right:0;
+	}
+	
+	
+	.pressText {
+		padding: 50px 0 30px;
+	}
+	
+}

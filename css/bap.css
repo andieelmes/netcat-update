@@ -1,0 +1,1275 @@
+.bapHeader {
+	background: #fcfcef;
+	text-align: center;
+	padding:70px 0 0 0;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.bapHeader h1 {
+	color:#3d67b0;
+	font-weight: bold;
+	font-size:48px;
+}
+
+.bapHeader-description {
+	color:#a2a2a2;
+	font-size:24px;
+	line-height:36px;
+	padding:20px 0 25px;
+	max-width: 530px;
+	margin:0 auto;
+}
+
+.bapHeader-image {
+	line-height:0;
+}
+
+
+
+
+.bapPartner {
+	position: relative;
+	padding:45px 0 35px;
+	background: #fff;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.bapPartner h2 {
+	display:block;
+	position: relative;
+	text-align: center;
+	font-size:30px;
+	line-height:1.2em;
+}
+
+.bapPartner .cols {
+/* 	padding-top:65px; */
+	position: relative;
+}
+
+.bapPartner .cols:after {
+	position: absolute;
+	top:70px;
+	bottom:40px;
+	left:50%;
+	width:1px;
+	content:' ';
+	display:block;
+	background: #e7e7e7;
+}
+
+.bapPartner .col {
+	display:inline-block;
+	vertical-align: top;
+	position: relative;
+	width:50%;
+	margin-right:-4px;
+}
+
+.bapPartner .row {
+	position: relative;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.bapPartner .row:last-child {
+	border:0;
+}
+
+.bapItem {
+	font-size:14px;
+	line-height:20px;
+	position: relative;
+	padding-right:45px;
+	padding-top:65px;
+	padding-bottom:63px;
+}
+
+.bapItem-image {
+	position: absolute;
+	top:65px;
+	left:0;
+	bottom:0;
+	width:155px;
+}
+
+.bapItem-image img {
+	max-width:100%;
+	height:auto;
+}
+
+.bapItem-text {
+	margin-left:155px;
+}
+
+.bapItem-title {
+	font-size:24px;
+	line-height:1.2em;
+	font-weight: bold;
+}
+
+.bapItem-content {
+	padding-top:12px;
+}
+
+
+
+.bapPartner .col:nth-child(2n) .bapItem {
+	padding-right:0;
+	margin-left:45px;
+}
+
+
+
+
+
+.bapPros {
+	position: relative;
+	background: #fafafa;
+	border-bottom:1px solid #e7e7e7;
+	padding:45px 0 15px;
+}
+
+.bapPros h2 {
+	display:block;
+	position: relative;
+	text-align: center;
+	font-size:30px;
+	line-height:1.2em;
+}
+
+
+.bapPros .cols {
+	margin-right:-40px;
+	position: relative;
+}
+
+.bapPros .cols:before {
+	position: absolute;
+	top:55px;
+	bottom:40px;
+	left:31%;
+	width:1px;
+	content:' ';
+	display:block;
+	background: #e7e7e7;
+}
+
+.bapPros .cols:after {
+	position: absolute;
+	top:55px;
+	bottom:40px;
+	left:66%;
+	width:1px;
+	content:' ';
+	display:block;
+	background: #e7e7e7;
+}
+
+.bapPros .col {
+	display:inline-block;
+	vertical-align: top;
+	position: relative;
+	width:33%;
+	margin-right:-4px;
+}
+
+.bapPrItem {
+	position: relative;
+	padding-top:55px;
+	padding-bottom:55px;
+}
+
+.bapPrItem-title {
+	font-size:18px;
+	line-height:30px;
+	font-weight: bold;
+	padding-bottom:10px;
+}
+
+.bapPrItem-content {
+	font-size:14px;
+	line-height:20px;
+}
+
+
+.bapPros .col:nth-child(3n + 1) {
+	width:32%
+}
+
+.bapPros .col:nth-child(3n + 1) .bapPrItem {
+	margin-right:30px;
+}
+
+.bapPros .col:nth-child(3n + 2) {
+	width:34%;
+}
+
+.bapPros .col:nth-child(3n + 2) .bapPrItem {
+	margin:0 30px;
+}
+
+.bapPros .col:nth-child(3n) {
+	width:32%;
+}
+
+.bapPros .col:nth-child(3n) .bapPrItem {
+	margin-left: 40px;
+}
+
+
+.bapPros .col:nth-child(3n+1):after {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100000px;
+	content:' ';
+	display:block;
+	height:1px;
+	background: #e7e7e7;
+}
+
+.bapPros .col:first-child:after {
+	display:none;
+}
+
+
+
+
+.bapPower {
+	position: relative;
+	background: #fff;
+	padding:55px 0 25px;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.bapPower h2 {
+	display:block;
+	position: relative;
+	text-align: center;
+	font-size:30px;
+	line-height:1.2em;
+}
+
+
+.bapPower .cols {
+	padding-top:55px;
+	position: relative;
+}
+
+.bapPower .col {
+	display:inline-block;
+	margin-right:-4px;
+	width:25%;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.bapPower-item {
+	position: relative;
+	text-align: center;
+	max-width:160px;
+	margin:0 auto;
+}
+
+.bapPower-title {
+	padding-top:34px;
+}
+
+
+
+
+
+.bapForm {
+	background: #fcfcef;
+	position: relative;
+	padding:55px 0 75px;
+}
+
+.bapForm h2 {
+	display:block;
+	position: relative;
+	text-align: center;
+	font-size:30px;
+	line-height:1.2em;
+}
+
+
+
+.bapForm-form {
+	max-width:650px;
+	padding:65px 60px 30px;
+	position: relative;
+	margin:0 auto;
+	display:block;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 24px 43px rgba(35,60,105,0.5);
+	margin-top:40px;
+	font-size:16px;
+	
+	-webkit-transition: height 0.2s;
+	transition: height 0.2s;
+}
+
+.bapForm .cols {
+	position: relative;
+}
+
+.bapForm .col {
+	display:inline-block;
+	margin-right:-4px;
+	width:48%;
+	padding-right:2%;
+	position: relative;
+}
+
+.bapForm .col:nth-of-type(2n) {
+	padding-right:0;
+	padding-left:2%;
+}
+
+.bapForm-row {
+	display:block;
+}
+
+.bapForm-label {
+	display:block;
+	padding-bottom:10px;
+	position: relative;
+}
+
+.bapForm input {
+	background: #fafafa;
+	border:1px solid #cbc7c7;
+	border-radius: 3px;
+	outline: none;
+	display:block;
+	width:100%;
+	position: relative;
+	height: 45px;
+	text-indent: 10px;
+	font-size:16px;
+}
+
+.bapForm input:focus {
+	border-color:#1267b3;
+}
+
+.bapForm input.req {
+	border-color:#ff7159;
+}
+
+.bapForm-intermed {
+	border:1px solid #dfdfdf;
+	height:8px;
+	width:100%;
+	border-radius: 3px 3px 0 0;
+	font-size:14px;
+	color:#a2a2a2;
+	text-align: center;
+	margin:45px 0 15px 0;
+	border-bottom:0;
+}
+
+.bapForm-intermed span {
+	position: relative;
+	margin-top:-11px;
+	vertical-align: top;
+	text-align: center;
+	display:inline-block;
+	padding:0 10px;
+	background: #fff;
+}
+
+.bapForm-buttons {
+	position: relative;
+	text-align: center;
+	padding:60px 0 10px 0;
+}
+
+.bapForm button.disabled,
+.bapForm button.disabled:hover {
+	opacity: 0.5;
+	background: #f67059;
+	cursor: default;
+}
+
+.bapForm-row.req {
+	color:#ff7159
+}
+
+.bapForm-error {
+	color:#ff7159;
+	font-size:14px;
+	margin-bottom:10px;
+	margin-top:-30px;
+	text-align: center;
+}
+
+
+.bapForm-success {
+	text-align: center;
+	font-size:16px;
+	line-height:30px;
+	background: #fff;
+	display:none;
+	padding-bottom:10px;
+	position: relative;
+	width:100%;
+	left:0;
+	top:0;
+	right:0;
+}
+
+.bapForm-normal.sent {
+	position: absolute;
+	left:60px;
+	right:60px;
+}
+
+.bapForm-ok {
+	max-width:420px;
+	margin:0 auto;
+	position: relative;
+}
+
+.bapForm-success h2 {
+	font-size:30px;
+	font-weight: bold;
+}
+
+.bapForm-success img {
+	margin: 15px 0;
+	max-width:100%;
+	height:auto;
+}
+
+.bapForm-success .button {
+	margin-top:25px;
+}
+
+
+.bapForm .up {
+  background: url(../img/edition/up-arrow.png) no-repeat 0 0;
+  height: 60px;
+  padding-left: 75px;
+  line-height: 60px;
+  opacity: 0.45;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: #3d67b0;
+  text-decoration: none;
+  font-size: 12px;
+  position: absolute;
+  display: block;
+  bottom:30px;
+}
+.bapForm .up:hover {
+  opacity: 1;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.button, input, textarea {
+	font-family: 'RotondaC';
+}
+
+.bapForm button {
+	cursor: pointer;
+}
+
+
+
+
+
+.bapReviews {
+	position: relative;
+	background: #fff;
+	border-bottom:1px solid #e7e7e7;
+	padding:48px 0 0;
+}
+
+.bapReviews h2 {
+	text-align: center;
+	display:block;
+	font-size:36px;
+}
+
+.bapReviews-slider {
+	position: relative;
+	width:92%;
+	height:560px;
+	margin:0 auto;
+}
+
+.bapReviews-slide {
+	line-height:560px;
+	position: relative;
+}
+
+.bapReview {
+	line-height:18px;
+	display:inline-block;
+	position: relative;
+	width:100%;
+	vertical-align: middle;
+}
+
+.bapReviews-arrow {
+	position: absolute;
+	top:50%;
+	margin-top: -30px;
+	height:60px;
+	width:30px;
+	background:url(../img/parts/i-arrow.png) no-repeat 0 0;
+	left:-50px;
+	opacity: .5;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.bapReviews-arrow--right {
+	background: url(../img/parts/i-arrow-right.png) no-repeat 0 0;
+	left:auto;
+	right:-50px;
+}
+
+.bapReviews-arrow:hover {
+	opacity: 1;
+}
+
+.bapReviews-photo {
+	position: absolute;
+	z-index:1;
+	bottom:0;
+	top:20px;
+	right:0;
+	line-height:0;
+}
+
+.bapReviews-photo img {
+	max-height:100%;
+	width:auto;
+}
+
+.bapReviews-text {
+	position: relative;
+	z-index:5;
+}
+
+.bapReview-content {
+	position: relative;
+	padding-left:140px;
+	font-size:20px;
+	line-height:32px;
+	width:47%;
+}
+
+.bapReview-content:after {
+	position: absolute;
+	background: url(../img/parts/i-quotes.png) no-repeat;
+	background-size: 100% 100%;
+	width:62px;
+	height:39px;
+	display:block;
+	content:' ';
+	top:-28px;
+	left:70px;
+}
+
+.bapReview-meta {
+	padding-left:140px;
+	position: relative;
+	padding-top:50px;
+	color:#a2a2a2;
+	font-size: 14px;
+	line-height:24px;
+}
+
+.bapReview-name {
+	font-size:18px;
+	color:#454b57;
+}
+
+.bapReview-dash {
+	margin-left:-20px;
+}
+
+.bapReview-icon {
+	height:18px;
+	margin-left:2px;
+	margin-top:2px;
+	margin-bottom:-2px;
+	display:inline-block;
+	width:auto;
+}
+
+.bapReviews .fotorama__nav-wrap {
+	position: absolute;
+	bottom: 30px;
+	left: 140px;
+	text-align: left;
+	width: auto;
+}
+
+.bapReviews .fotorama__nav--thumbs {
+	width:auto !important;
+}
+
+.bapReviews .fotorama__thumb-border {
+	display:none !important;
+}
+
+.bapReviews .fotorama__nav__frame {
+	opacity: 0.3;
+	width:40px !important;
+	height:35px !important;
+	border-radius: 50%;
+}
+
+.bapReviews .fotorama__thumb {
+	width:35px;
+	height:35px;
+	border-radius: 50%;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.bapReviews .fotorama__nav__frame.fotorama__active {
+	opacity: 1;
+}
+
+.bapReviews img.fotorama__img {
+	width:50px !important;
+	height:auto !important;
+	margin-left: -7px !important;
+	top:0 !important;
+	margin-top:3px !important;
+}
+
+
+
+@media (max-width: 1200px) {
+	.bapForm .up {
+		margin-left:-30px;
+	}
+}
+
+@media (max-width: 1160px) {
+	
+	.bapItem-image {
+		width:100px;
+	}
+	
+	.bapItem-image img {
+		width:70%;
+		height:auto;
+	}
+	
+	.bapItem-text {
+		margin-left:100px;
+	}
+	
+	.bapHeader-image img {
+		position: relative;
+		width:100%;
+		height:auto;
+	}
+	
+	.bapForm .up {
+		overflow: hidden;
+		text-indent: -999px;
+		margin-left:-30px;
+	}
+	
+}
+
+@media (max-width: 1120px) {
+	
+	.bapPartner .col {
+		width:100%;
+		margin-right:0;
+		padding:0;
+		display:block;
+		max-width:560px;
+		margin:0 auto;
+	}
+	
+	.bapPartner .cols {
+		padding-top:20px;
+	}
+	
+	.bapPartner .cols:after {
+		display:none;
+	}
+	
+	.bapPartner .row {
+		border:0;
+	}
+	
+	.bapItem {
+		padding:30px 0 30px 0;
+		margin:0 !important;
+	}
+	
+	.bapItem-image {
+		top:30px;
+	}
+	
+}
+
+@media (max-width: 1100px) {
+	
+	.bapForm .up {
+		position: relative;
+		top:auto;
+		bottom:auto;
+		left:auto;
+		overflow: visible;
+		display:block;
+		margin:0 auto;
+		margin-top:60px;
+		padding-left:75px;
+		width:auto;
+		text-indent: 0;
+		max-width:40px;
+	}
+	
+	
+	.bapReview-content {
+		padding-left:40px;
+		width:50%;
+	}
+	
+	.bapReview-content:after {
+		left:0px;
+		top:-8px;
+		width:31px;
+		height:20px;
+	}
+	
+	.bapReview-meta {
+		padding-left:40px;
+	}
+	
+	.bapReviews .fotorama__nav-wrap {
+		left:40px;
+	}
+	
+	.bapReviews-photo {
+		top:10%;
+	}
+	
+	.bapReviews-slider {
+		height:480px;
+	}
+	
+	.bapReviews-slide {
+		line-height:480px;
+	}
+	
+}
+
+@media (max-width:1000px) {
+	
+	
+	.bapPros .cols {
+		padding-top:20px;
+		margin-right:0;
+		padding-bottom:20px;
+	}
+	
+	.bapPros .col {
+		width:47% !important;
+		padding-right:3%;
+	}
+	
+	.bapPros .col:nth-child(2n) {
+		padding-right:0;
+		padding-left:3%;
+	}
+	
+	.bapPros .col:after, .bapPros .cols:after, .bapPros .cols:before {
+		display:none !important;
+	}
+	
+	.bapPrItem {
+		padding:30px 0px !important;
+		margin:0 !important;
+	}
+	
+	.bapPower .cols {
+		padding-top:25px;
+	}
+	
+	.bapPower-image {
+		text-align: center;
+		line-height:160px;
+		height:150px;
+	}
+	
+	.bapPower-image img {
+		max-width:80%;
+		height:auto;
+		vertical-align: middle;
+		display:inline-block;
+	}
+	
+	.bapPower-title {
+		padding-top:10px;
+	}
+	
+	
+	.bapReviews-arrow {
+		left:-40px;
+	}
+	
+	.bapReviews-arrow--right {
+		left:auto;right:-40px;
+	}
+	
+	.bapReviews-slider, .bapReviews-slide {
+		height:400px;
+	}
+	
+	
+	
+	.bapReviews-text {
+		vertical-align: middle;
+		margin-top:-110px;
+		padding-left:60px;
+	}
+	
+	.bapReview-content {
+		font-size:18px;
+		line-height:24px;
+		padding-top:30px;
+		width:50%;
+	}
+	
+	.bapReview-meta {
+		padding-top:20px;
+		line-height:18px;
+	}
+	
+	.bapReview-name {
+		font-size:14px;
+	}
+	
+	.bapReview-dash {
+		margin-left:-17px;
+	}
+	
+	.bapReview-content:after {
+		top:20px;
+	}
+	
+	.bapReviews .fotorama__nav-wrap {
+		left:0;
+		right:0;
+		bottom:15px;
+	}
+	
+}
+
+@media (max-width: 960px) {}
+
+@media (max-width: 880px) {
+	
+	.bapHeader {
+		padding-top:40px;
+	}
+	
+	.bapHeader h1 {
+		font-size: 38px;
+	    line-height: 44px;
+	}
+	
+	.bapHeader-description {
+		font-size:18px;
+		line-height:24px;
+	}
+	
+	.bapPartner h2, .bapPros h2, .bapPower h2, .bapReviews h2, .bapForm h2 {
+		font-size: 24px;
+	}
+	
+	.bapItem-title {
+		font-size: 18px;
+	}
+	
+	.bapItem {
+		padding: 20px 0 20px 0;
+	}
+	
+	.bapPros .cols {
+		padding-top:20px;
+	}
+	
+	.bapPrItem {
+		padding:10px 0 !important;
+	}
+	
+	
+	.bapPower-item {
+		max-width:150px;
+	}
+	
+	.bapPower-image {
+		max-width:100px;
+		margin:0 auto;
+		height:120px;
+		line-height:130px;
+	}
+	
+	.bapReviews-text {
+		padding-left:0px;
+	}
+	
+}
+
+@media (max-width: 700px) {
+	
+	.bapPower {
+		padding: 35px 0 15px;
+	}
+	
+	.bapPower .col {
+		width:50%;
+		padding:10px 0;
+	}
+	
+	.bapPower .cols {
+		padding-top:10px;
+	}
+	
+	.bapPower .col {
+		margin-bottom:10px;
+	}
+	
+	
+	.bapForm {
+		padding-bottom:30px;
+	}
+	
+	.bapForm-form {
+		padding: 45px 35px 30px;
+	}
+	
+	.bapForm-normal.sent {
+		left:35px;
+		right:35px;
+	}
+	
+	.bapForm-buttons {
+		padding-top:25px;
+	}
+	
+	.bapForm .col, .bapForm .col:nth-of-type(2n) {
+		padding:0 0 15px 0;
+		width:100%;
+		display:block;
+	}
+	
+	.bapForm-intermed {
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+	
+	
+	
+	.bapReviews-photo {
+		position: relative;
+		width:200px;
+		height:200px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin:0 auto;
+		top:auto;
+		bottom:auto;
+		left:auto;
+		right:auto;
+		border:2px solid #e2e2e2;
+		background: #fff;
+		margin-top:30px;
+	}
+	
+	.bapReviews-photo img {
+		margin-top:10%;
+	}
+	
+	.bapReviews-slider {
+		height:500px;
+	}
+	
+	.bapReviews-slide {
+		line-height:normal;
+	}
+	
+	.bapReviews-arrow {
+		opacity: 0.2;
+		width:20px;
+		margin-top:0;
+		z-index:8;
+		top:110px;
+		height:40px;
+		background-size: 100% auto;
+		left:-10px;
+		background-color:#fff;
+	}
+	
+	.bapReviews-arrow--right {
+		left:auto;
+		right:-10px;
+	}
+	
+	.bapReviews-arrow:hover {
+		opacity: 0.4;
+	}
+	
+	.bapReview {
+		text-align: center;
+		margin:0 auto;
+		padding-left:0;
+		left:auto;
+		margin-left:0;
+	}
+	
+	.bapReview-meta {
+		padding-left:0;
+		padding-top:15px;
+	}
+	
+	.bapReview-content {
+		margin:0 auto;
+		padding-left:0;
+		left:auto;
+		width:100%;
+		font-size:16px;
+		line-height:21px;
+	}
+	
+	.bapReview-name {
+		font-size:16px;
+		line-height:21px;
+	}
+	
+	.bapReviews .fotorama__nav-wrap {
+		left:0;
+		right:0;
+	}
+	
+	.bapReview-content:after {
+		display:none;
+	}
+	
+	.bapReviews-slider {
+		margin:0;
+		max-width:100%;
+		width:100%;
+	}
+	
+}
+
+@media (max-width: 660px) {
+	
+	.bapReviews-slider {
+		height:500px;
+	}
+
+}
+
+@media (max-width: 540px) {
+	
+	.bapHeader h1 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	
+	.bapPartner h2, .bapPros h2, .bapPower h2, .bapReviews h2, .bapForm h2 {
+		font-size: 22px;
+	}
+	
+	.bapPros .col {
+		width:100% !important;
+		padding:0 !important;
+		display:block;
+		max-width:100%;
+	}
+	
+	.bapPartner .cols {
+		max-width:100%;
+		padding-top:10px;
+	}
+	
+	.bapPartner {
+		padding:30px 0 20px;
+	}
+	
+	.bapItem {
+		text-align: center;
+	}
+	
+	.bapItem-image {
+		display:block;
+		position: relative;
+		display:auto;
+		line-height: normal;
+		height:auto;
+		top:auto;
+		padding:15px 0 10px;
+		width:100%;
+		text-align: center;
+	}
+	
+	.bapItem-image img {
+		position: relative;
+		vertical-align: top;
+		max-width:14%;
+		height:auto;
+		margin:0 auto;
+	}
+	
+	.bapItem-text {
+		margin-left:0;
+	}
+	
+	.bapItem {
+		padding:10px 0 30px 0;
+		position: relative;
+	}
+	
+	.bapItem:after {
+		position: absolute;
+		height:1px;
+		background: #e7e7e7;
+		width:100px;
+		left:50%;
+		margin-left:-50px;
+		bottom:5px;
+		content:' ';
+		display:block;
+	}
+	
+	.bapPartner .row:last-child .col:last-child .bapItem:after {
+		display:none;
+	}
+	
+	.bapItem-content {
+		padding-top:5px;
+	}
+	
+	.bapPros .cols {
+		margin:0;
+		max-width:100%;
+	}
+	
+	.bapPrItem {
+		text-align: center;
+		padding-bottom:20px !important;
+	}
+	
+	.bapForm .cols {
+		margin:0;
+		max-width:100%;
+	}
+	
+	.bapForm {
+		padding-top:35px;
+	}
+	
+	.bapForm-form {
+		padding: 30px 21px 30px;
+		margin-left:-10px;
+		margin-right:-10px;
+		border-radius: 5px;
+		margin-top:25px;
+	}
+	
+	.bapForm-normal.sent {
+		left:30px;
+		right:30px;
+	}
+	
+	.bapForm input {
+		height:40px;
+	}
+	
+	/* здесь, возиожно, придётся попотеть с высотой —
+		надо придавать по самому высокому блоку,
+		фоторама не умеет в динамическую высоту */
+		
+	.bapReviews-slider {
+		height:500px;
+	}
+	
+	
+	.bapPower .cols {
+		margin:0;
+		max-width:100%;
+		width:100%;
+	}
+	
+}
+
+@media (max-width: 420px) {
+	
+	.bapPower {
+		padding-bottom:30px;
+	}
+	
+	.bapPower .col {
+		width:100%;
+		padding:0;
+	}
+	
+	.bapPower-item {
+		max-width:100%;
+		padding:20px 0 5px 0;
+	}
+	
+	.bapPower-image {
+		display:inline-block;
+		vertical-align: middle;
+		width:24%;
+		padding:0 3%;
+		height:auto;
+		line-height:0;
+		min-height:0;
+		margin-right:-4px;
+		text-align: center;
+	}
+	
+	.bapPower-image img {
+		width:80%;
+		margin-top:5%;
+		height:auto;
+		vertical-align: middle;
+	}
+	
+	.bapPower-title {
+		position: relative;
+		display:inline-block;
+		width:65%;
+		padding-left:2%;
+		text-align: left;
+		margin-right:-4px;
+		vertical-align: middle;
+	}
+	
+	
+	
+	.bapReviews-slider {
+		height:560px;
+	}
+	
+}

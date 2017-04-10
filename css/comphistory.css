@@ -1,0 +1,169 @@
+.standartTitle--history {
+	padding-bottom:0;
+	min-height:190px;
+}
+
+.textSection {
+	position: relative;
+	background: #fff;
+	padding:60px 0 60px 0;
+	font-size:14px;
+	line-height:20px;
+	border-bottom:1px solid #e7e7e7;
+}
+
+.textSection h3 {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:24px;
+	color:#454b57;
+	font-weight: bold;
+	line-height:1.3em;
+}
+
+.textSection h3:first-child {
+	padding-top:0;
+}
+
+.textSection p {
+	padding-bottom:20px;
+	position: relative;
+	display:block;
+}
+
+.textSection ul,
+.textSection ul li {
+	list-style: disc;
+}
+
+.textSection ul {
+	margin-left:25px;
+	margin-bottom:20px;
+}
+
+.textSection ul li {
+	margin-bottom:5px;
+}
+
+.textSection-content {
+	position: relative;
+	width:70%;
+}
+
+.textSection-sidemodule {
+	position: absolute;
+	width:30%;
+	right:-40%;
+	font-size:18px;
+	line-height:30px;
+	top:0;
+	max-width:260px;
+}
+
+.sidemodule {
+	position: absolute;
+}
+
+.sidemodule-image {
+	display:inline-block;
+	position: relative;
+	margin-right:-4px;
+	width:35%;
+	text-align: center;
+	padding-top:5px;
+	vertical-align: middle;
+}
+
+.sidemodule-image img {
+	max-width:80%;
+	height:auto;
+}
+
+.sidemodule-text {
+	display:inline-block;
+	position: relative;
+	margin-right:-4px;
+	width:60%;
+	padding-left:4%;
+	vertical-align: middle;
+}
+
+
+@media (max-width:960px) {
+	
+	.textSection-sidemodule {
+		font-size:14px;
+		line-height:20px;
+		right:-38%;
+		width:33%;
+	}
+	
+}
+
+
+@media (max-width:880px) {
+	
+	.textSection-sidemodule {
+		width:320px;
+		max-width:400px;
+		margin:0 auto;
+		position: relative;
+		right:auto;
+		font-size:18px;
+		line-height:30px;
+		padding:40px 0;
+	}
+	
+	.sidemodule-image {
+		text-align: right;
+		padding-right:2%;
+		width:33%;
+	}
+	
+	.textSection-content p,
+	.textSection-content ul,
+	.textSection-content h3,
+	.textSection-content h4 {
+		width:85%;
+	}
+	
+	.textSection-content {
+		width:100%;
+	}
+	
+	.textSection h3 {
+		padding-top:40px;
+	}
+	
+}
+
+
+@media (max-width:700px) {
+	
+	.textSection {
+		padding-top:40px;
+	}
+	
+	.textSection-content p,
+	.textSection-content ul,
+	.textSection-content h3,
+	.textSection-content h4 {
+		width:100%;
+	}
+	
+	.textSection-content ul {
+		width:auto;
+		margin-right:0;
+	}
+	
+	.textSection-sidemodule {
+		padding:10px 0 30px;
+		width:100%;
+		max-width:320px;
+	}
+	
+	.sidemodule-image {
+		width:30%;
+	}
+	
+}

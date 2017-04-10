@@ -1,0 +1,193 @@
+@media (max-width: 1230px) {
+    .portf_first {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .portf_history-notebook {
+        padding-top: 2.5%;
+    }
+}
+
+@media (max-width: 1135px) {
+    .portf_history-main, .portf_history-items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1080px) {
+    .portf_first {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .portf_first-fotorama {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .portf_history-main, .portf_history-items {
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+    .portf_project-picture, .portf_stores .portf_project-picture, .portf_project-image {
+        height: 20vw;
+    }
+}
+
+@media (max-width: 990px) {
+    .portf_history-main {
+        padding-left: 45px;
+    }
+    .portf_history-notebook {
+        padding-top: 2.8%;
+        width: 25vw;
+    }
+    .portf_first-fotorama {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 920px) {
+    .portf_first-title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .portf_history-main {
+        text-align: center;
+        background-image: none;
+        background-color: #0065FF;
+        padding-left: 90px;
+    }
+    .portf_history-content, .portf_history-title {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portf_history-picture {
+        position: relative;
+        display: inline-block;
+        margin: 35px auto 0;
+        right: auto;
+        top: auto;
+    }
+}
+
+@media (max-width: 880px) {
+    .portf_history-items {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .portf_project-items {
+        text-align: center;
+    }
+    .portf_project-item {
+        width: 47%;
+        min-width: 340px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+    }
+    .portf_project-item:nth-child(3n) {
+        margin-right: 10%;
+    }
+    .portf_project-image {
+        height: 220px;
+    }
+    .portf_project-picture, .portf_stores .portf_project-picture, .portf_project-image {
+        height: 220px;
+    }
+    .portf_first-fotorama {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .portf_history {
+        padding-top: 0;
+    }
+    .portf_social {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 810px) {
+    .portf_history-item {
+        width: 47%;
+        margin-left: 10%;
+        margin-right: 10%;
+        min-width: 320px;
+    }
+    .portf_history-items {
+        text-align: center;
+    }
+    .portf_history-item:nth-child(3n) {
+        margin-right: 10%;
+    }
+    .portf_history-notebook {
+        width: 100%;
+    }
+    .portf_first-fotorama::before {
+        height: 1vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .portf_first-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .portf_first_prefix {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .portf_history-title, .portf_project-header {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .portf_history-content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .portf_first-arrow {
+        display: none;
+    }
+    .portf_first-fotorama {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 570px) {
+    .portf_history-main {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .portf_history-picture {
+        max-width: 80%;
+    }
+    .portf_history-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 470px) {
+    .portf_history-item, .portf_history-item:nth-child(3n) {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    .portf_first-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .portf_first-prefix {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .portf_project-item, .portf_project-item:nth-child(3n) {
+        width: auto;
+        min-width: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 340px;
+    }
+}
