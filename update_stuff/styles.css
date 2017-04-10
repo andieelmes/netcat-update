@@ -50,7 +50,6 @@
     padding: 97px 9% 54px 9%;
     position: relative;
     display: block;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -90,7 +89,7 @@
     font-weight: 300;
     padding-bottom: 75px;
     color: white;
-    margin-right: 60px;
+    margin-right: 4%;
 }
 
 .update_first-col:last-child {
@@ -143,6 +142,7 @@
 
 .update_safety {
     padding: 177px 9% 54px 9%;
+    background-color: white;
 }
 
 .update_safety-prefix {
@@ -178,12 +178,12 @@
 }
 
 .safety_item--left .update_safety-image {
-    left: 120px;
+    left: 9%;
     top: 190px;
 }
 
 .safety_item--right .update_safety-image {
-    right: 140px;
+    right: 10.5%;
     top: 180px;
 }
 
@@ -245,7 +245,7 @@
     line-height: 74px;
     font-weight: 300;
     color: white;
-    max-width: 800px;
+    max-width: 70%;
     padding-top: 30px;
     display: inline-block;
     vertical-align: top;
@@ -295,10 +295,27 @@
     color: white;
     margin-top: 23px;
     letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: none;
+    display: block;
+}
+
+.update_able-text img {
+    width: 17px;
+    vertical-align: middle;
+}
+
+.update_able-text:hover {
+    color: #fb782a;
+}
+
+.update_able-text:hover img svg {
+    fill: #fb782a;
 }
 
 .update_able-image {
     width: 60px;
+    height: 45px;
 }
 
 .update_able-image img {
@@ -307,6 +324,7 @@
 
 .update_async {
     padding: 150px 10.5% 188px 10.5%;
+    background-color: white;
 }
 
 .update_async-title {
@@ -316,6 +334,7 @@
     padding-top: 30px;
     display: inline-block;
     vertical-align: top;
+    max-width: 88%;
 }
 
 .update_async-icon {
@@ -484,6 +503,7 @@
 
 .update_reviews {
     padding: 113px 9% 168px 9%;
+    background-color: white;
 }
 
 .update_reviews-prefix {
@@ -632,4 +652,15 @@
 .update_choose-btn--new {
     margin-left: 20px;
     width: 190px;
+}
+
+.update_choose-btn--edition:hover {
+    background-color: rgb(255, 255, 255);
+    color: #2c75ff;
+}
+
+.update_choose-btn--new:hover {
+    background: #fff;
+    color: #3279fb;
+    border-color: #fff;
 }
