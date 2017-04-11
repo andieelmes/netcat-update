@@ -180,6 +180,11 @@
     .update_safety, .update_able, .update_async, .update_add {
         padding-top: 100px;
     }
+    .update_safety-title {
+        position: relative;
+        padding-bottom: 0;
+        height: auto;
+    }
 }
 @media (max-width: 800px){
     .update_able-logo, .update_able-logo:first-child {
@@ -217,6 +222,7 @@
     .fotorama__nav-wrap {
         top: 30%;
     }
+
     
 }
 @media (max-width: 650px){
