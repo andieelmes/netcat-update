@@ -51,6 +51,8 @@
     position: relative;
     display: block;
     text-align: center;
+    z-index: 10;
+    overflow: visible;
 }
 
 .update_first-title {
@@ -125,8 +127,8 @@
     display: block;
     bottom: 0;
     left: 50%;
-    transform: translateX(-61px);
-    background-color: #f9934e;
+    transform: translateX(-50%);
+    background-color: #FD9451;
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -175,6 +177,9 @@
 
 .update_safety-image {
     position: absolute;
+}
+.update_safety-image img {
+    width: 23vw
 }
 
 .safety_item--left .update_safety-image {
@@ -225,8 +230,9 @@
 }
 
 .update_able {
-    padding: 165px 10.5% 90px 10.5%;
-    background-image: url(bk2.png)
+    padding: 165px 10.5% 85px 10.5%;
+    background-image: url(bk2.png);
+    position: relative;
 }
 
 .update_able-logo {
@@ -253,10 +259,12 @@
 
 .update_able-icon {
     width: 130px;
-    display: inline-block;
-    margin-left: 110px;
+    display: inline-block; 
     vertical-align: top;
     margin-top: 45px;
+    position: absolute;
+    top: 205px;
+    right: 24.3%;
 }
 
 .update_able-icon img {
@@ -264,14 +272,14 @@
 }
 
 .update_able-items {
-    padding-top: 160px;
+    padding-top: 180px;
 }
 
 .update_able-item {
     display: inline-block;
     vertical-align: top;
     max-width: 25%;
-    padding-right: 130px;
+    padding-right: 10.5%;
     padding-bottom: 116px
 }
 
@@ -325,6 +333,7 @@
 .update_async {
     padding: 150px 10.5% 188px 10.5%;
     background-color: white;
+    position: relative;
 }
 
 .update_async-title {
@@ -341,6 +350,9 @@
     width: 130px;
     display: inline-block;
     vertical-align: top;
+    position: absolute;
+    top: 155px;
+    right: 12.6%;
 }
 
 .update_async-icon img {
@@ -348,7 +360,7 @@
 }
 
 .update_async-items {
-    padding-top: 96px;
+    padding-top: 136px;
 }
 
 .update_async-item {
@@ -390,8 +402,9 @@
 }
 
 .update_add {
-    padding: 124px 0 195px 10.5%;
+    padding: 124px 0 218px 10.5%;
     background-image: url(bk3.png);
+    position: relative;
 }
 
 .update_add-title {
@@ -402,6 +415,7 @@
     display: inline-block;
     vertical-align: top;
     color: white;
+    max-width: 70%;
 }
 
 .update_add-icon {
@@ -410,10 +424,23 @@
     vertical-align: top;
     margin-left: 80px;
     margin-top: 15px;
+    position: absolute;
+    top: 125px;
+    right: 20%;
 }
 
 .update_add-icon img {
     width: 100%;
+}
+.update_add-content {
+    position: relative;
+    padding-left: 25.9%;
+    margin-top: 42px;
+}
+.update_add-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .update_add-number {
@@ -425,7 +452,7 @@
     vertical-align: top;
     box-sizing: border-box;
     margin-top: 120px;
-    position: relative;
+    position: relative;  
 }
 
 .update_add-inner {
@@ -527,6 +554,7 @@
 .update_reviews-item {
     padding-top: 102px;
     padding-left: 25px;
+    position: relative;
 }
 
 .update_reviews-content {
@@ -546,8 +574,10 @@
     display: inline-block;
     vertical-align: top;
     padding-left: 13.5%;
-    padding-top: 38px;
     text-align: center;
+    position: absolute;
+    right: 18%;
+    top:  138px;
 }
 
 .update_reviews-photo {
@@ -555,11 +585,13 @@
     height: 157px;
     overflow: hidden;
     border-radius: 157px;
-    padding-left: 16.3%;
+    margin-left: 16.3%;
+    box-sizing: border-box;
 }
 
 .update_reviews-photo img {
-    width: 100%;
+   width: 100%;
+    height: 100%;
 }
 
 .update_reviews-name {
@@ -578,6 +610,41 @@
     text-transform: uppercase;
     padding-top: 5px;
     letter-spacing: 2px;
+}
+
+.fotorama {
+    position: relative;
+}
+
+.fotorama__nav-wrap {
+    position: absolute;
+    right: 46px;
+    top: 31.1%;
+    transform: translatey(-45%)
+}
+
+.fotorama__nav.fotorama__nav--dots {
+    text-align: right;
+}
+
+.fotorama__nav--dots .fotorama__nav__frame {
+    display: block;
+    height: 34px;
+    width: 22px;
+}
+
+.fotorama__nav__frame.fotorama__active .fotorama__dot {
+    border-width: 7px;
+    border-radius: 7px;
+    border-color: #007AFF;
+}
+
+.fotorama__dot {
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-radius: 7px;
+    border-color: #D1E4FF;
 }
 
 .update_choose {
